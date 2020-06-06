@@ -28,16 +28,16 @@
 	//$Mailer->SMTPSecure = 'ssl';
 	
 	//nome do servidor
-	$Mailer->Host = 'smtp.umbler.com';
+	$Mailer->Host = 'colocar seu servidor de email';
 	//Porta de saida de e-mail 
 	$Mailer->Port = 587;
 	
 	//Dados do e-mail de saida - autenticaÃ§Ã£o
-	$Mailer->Username = 'contato@hemolife.xyz';
-	$Mailer->Password = 'trueblood';
+	$Mailer->Username = 'colocar seu email';
+	$Mailer->Password = 'colocar a senha';
 	
 	//E-mail remetente (deve ser o mesmo de quem fez a autenticaÃ§Ã£o)
-	$Mailer->From = 'contato@hemolife.xyz';
+	$Mailer->From = 'colocar seu email';
 	
 	//Nome do Remetente
 	$Mailer->FromName = 'HEMOLIFE';
